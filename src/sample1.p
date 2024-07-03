@@ -20,4 +20,4 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
 
 
 /* ***************************  Main Block  *************************** */
-DISP TIME TODAY.
+DISP TIME TODAY etime(yes).
