@@ -23,5 +23,5 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
 DISP TIME TODAY etime(yes) NOW OPSYS TRANSACTION DAY(today) MONTH(TODAY) YEAR(TODAY) WEEKDAY(TODAY).
 FOR EACH Customer NO-LOCK:
   DISP NAME CustNum.
-  DISP Customer.City.
+  DISP Customer.City Customer.State Customer.Country.
 END.
