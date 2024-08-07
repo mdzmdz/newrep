@@ -21,5 +21,5 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
 
 /* ***************************  Main Block  *************************** */
 FOR EACH Customer NO-LOCK:
-  DISPLAY NAME CustNum.
+  DISPLAY NAME CustNum CreditLimit.
 END.
