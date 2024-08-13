@@ -25,5 +25,7 @@ FOR EACH Customer NO-LOCK:
   DISPLAY CreditLimit * 4.
   DISPLAY CreditLimit * 8.
   DISPLAY CreditLimit * 12.
-  DISPLAY CreditLimit * 30.
+  DISPLAY CreditLimit +10.
+  DISPLAY CreditLimit + 20.
+  DISPLAY CreditLimit + 30.
 END.
