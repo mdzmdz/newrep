@@ -24,4 +24,5 @@ FOR EACH Customer NO-LOCK:
   DISPLAY NAME CustNum CreditLimit.
   DISPLAY CreditLimit * 4.
   DISPLAY CreditLimit * 8.
+  DISPLAY CreditLimit * 12.
 END.
